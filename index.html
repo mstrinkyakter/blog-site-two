@@ -19,24 +19,24 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">General</a>
+                    <a class="nav-link" href="general" id="general">General</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Business</a>
+                    <a class="nav-link" href="business" id="business">Business</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sports</a>
+                    <a class="nav-link" href="sports" id="sports">Sports</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Technology</a>
+                    <a class="nav-link" href="technology" id="technology">Technology</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Entertainment</a>
+                    <a class="nav-link" href="entertainment" id="entertainment">Entertainment</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-warning" type="submit">Search</button>
+                  <input class="form-control me-2" id="newsQuery" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit" id="search">Search</button>
                 </form>
               </div>
             </div>
@@ -45,7 +45,8 @@
 
     <!-- news  -->
     <div>
-
+       <div class="row" id="newsType"></div>
+       <div class="row" id="newsdetails"></div>
     </div>
 
     <!-- footer  -->
